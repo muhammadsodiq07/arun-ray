@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Arun</title>
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/col.css">
@@ -13,156 +13,477 @@
 </head>
 
 <body>
-      <header id="header" class="header">
-        <section class="header-section">
-          <div class="container">
-              <div class="header-div row middle between">
-                <div class="logo-img">
-                  <a href="#"><img class="logo" src="https://arun.gbjsolution.com/content/images/2021/05/arun-light-theme-logo.svg" alt="" width="130" height="40"></a>
-                </div>
-                <div class="nav-div">
-                  <nav class="navbar">
-                    <ul class="ul-item row middle">
-                      <li class="list">
-                        <a class="link active" href="#">
-                            Home
-                        </a>
-                      </li>
-                      <li class="list">
-                        <a class="link" href="#">
-                            Features
-                        </a>
-                      </li>
-                      <li class="list">
-                        <a class="link" href="#">
-                            Elements
-                        </a>
-                      </li>
-                      <li class="list">
-                        <a class="link" href="#">
-                            Membership
-                        </a>
-                      </li>
-                      <li class="list">
-                        <p class="list-p">
-                          More
-                        </p>
-                        <div class="box">
-                          <ul class="box-ul">
-                            <li class="box-list"><a class="box-links" href="#">Tags</a></li>
-                            <li class="box-list"><a class="box-links" href="#">Authors</a></li>
-                            <li class="box-list"><a class="box-links" href="#">Monthly</a></li>
-                            <li class="box-list"><a class="box-links" href="#">Yearly</a></li>
-                            <li class="box-list"><a class="box-links" href="#">Contact</a></li>
-                            <li class="box-list"><a class="box-links" href="#">Get theme</a></li>
-                            <li class="box-list"><a class="box-links" href="#">Tags</a></li>
-                          </ul>
-                        </div>
-
-                      </li>
-                      <li class="list">
-                        <a class="link" href="#">
-                            Sing in
-                        </a>
-                      </li>
-                      <li class="list btn">
-                        <a class="btn-link" href="#">
-                            Sing up
-                        </a>
-                      </li>
-                      <div id="id-search" class="icons row middle">
-                        <i class='bx bx-search'></i>
-                        <button class="dark-mode" id="modeBtn"><img class="img-moon" src="img/bx-moon.svg" alt=""></button>  
-                      </div>
+  <header id="header" class="header">
+    <section class="header-section">
+      <div class="container">
+        <div class="header-div row middle between">
+          <div class="logo-img">
+          </div>
+          <div class="nav-div">
+            <nav class="navbar">
+              <ul class="ul-item row middle">
+                <li class="list">
+                  <a class="link active" href="#">
+                    Home
+                  </a>
+                </li>
+                <li class="list">
+                  <a class="link" href="#">
+                    Features
+                  </a>
+                </li>
+                <li class="list">
+                  <a class="link" href="#">
+                    Elements
+                  </a>
+                </li>
+                <li class="list">
+                  <a class="link" href="#">
+                    Membership
+                  </a>
+                </li>
+                <li class="list">
+                  <p class="list-p">
+                    More
+                  </p>
+                  <div class="box">
+                    <ul class="box-ul">
+                      <li class="box-list"><a class="box-links" href="#">Tags</a></li>
+                      <li class="box-list"><a class="box-links" href="#">Authors</a></li>
+                      <li class="box-list"><a class="box-links" href="#">Monthly</a></li>
+                      <li class="box-list"><a class="box-links" href="#">Yearly</a></li>
+                      <li class="box-list"><a class="box-links" href="#">Contact</a></li>
+                      <li class="box-list"><a class="box-links" href="#">Get theme</a></li>
+                      <li class="box-list"><a class="box-links" href="#">Tags</a></li>
                     </ul>
-                  </nav>
+                  </div>
+
+                </li>
+                <li class="list">
+                  <a class="link" href="#">
+                    Sing in
+                  </a>
+                </li>
+                <li class="list btn">
+                  <a class="btn-link" href="#">
+                    Sing up
+                  </a>
+                </li>
+                <div class="icons row middle">
+                  <i id="id-search" class='bx bx-search'></i>
+                  <div id="modeBtn" class="dark-mode-moon"></div>
                 </div>
-              </div>
-          </div>
-        </section>
-      </header>
-      <div class="modal-box" id="id-modalbox">
-        <div class="container">
-          <div class="modal-search">
-            <input class="modal-input" type="text" id="text" placeholder="Type to search">
-            <p class="modal-desc">Press ESC to close.
-            </p>
-          </div>
-  
-          <div class="modal-list-box">
-            <p class="modal-text">See posts by Popular tags</p>
-            <ul class="modal-list row">
-              <li class="modal-item"><a class="modal-link" href="#">Inspiration</a></li>
-              <li class="modal-item"><a class="modal-link" href="#">Lifestyle</a></li>
-              <li class="modal-item"><a class="modal-link" href="#">Nature</a></li>
-              <li class="modal-item"><a class="modal-link" href="#">Health</a></li>
-              <li class="modal-item"><a class="modal-link" href="#">Travel</a></li>
-              <li class="modal-item"><a class="modal-link" href="#">Food</a></li>
-              <li class="modal-item"><a class="modal-link" href="#">Technology</a></li>
-            </ul>
-          </div>
-          <button class="modal-btn" id="id-remove">
-            <i class='bx bx-x-circle icon-x'></i>
-          </button>
+              </ul>
+            </nav>
           </div>
         </div>
-    <main id="main" class="main">
-      <section class="hero-section">
-        <div class="container">
-            <div class="hey row between">
-              <div>
-                <h1 class="title">Hay, I am Arun</h1>
-                <p class="text">An architect, software developer, YouTuber and keynote speaker. On this site I write about my learning and experience.</p>
-              <div class="from"> 
-                <form>
-                  <input type="email" name="email" id="email" placeholder="Your email address" required>
-                  <button class="buttonbt" type="submit">Subscribe</button>
-                </form>
+      </div>
+    </section>
+  </header>
+  <div class="modal-box" id="id-modalbox">
+    <div class="container">
+      <div class="modal-search">
+        <input class="modal-input" type="text" id="text" placeholder="Type to search">
+        <p class="modal-desc">Press ESC to close.
+        </p>
+      </div>
+
+      <div class="modal-list-box">
+        <p class="modal-text">See posts by Popular tags</p>
+        <ul class="modal-list row">
+          <li class="modal-item"><a class="modal-link" href="#">Inspiration</a></li>
+          <li class="modal-item"><a class="modal-link" href="#">Lifestyle</a></li>
+          <li class="modal-item"><a class="modal-link" href="#">Nature</a></li>
+          <li class="modal-item"><a class="modal-link" href="#">Health</a></li>
+          <li class="modal-item"><a class="modal-link" href="#">Travel</a></li>
+          <li class="modal-item"><a class="modal-link" href="#">Food</a></li>
+          <li class="modal-item"><a class="modal-link" href="#">Technology</a></li>
+        </ul>
+      </div>
+      <button class="modal-btn" id="id-remove">
+        <i class='bx bx-x-circle icon-x'></i>
+      </button>
+    </div>
+  </div>
+  <main id="main" class="main">
+    <section class="hero-section">
+      <div class="container">
+        <div class="hey row between">
+          <div>
+            <h1 class="title">Hay, I am Arun</h1>
+            <p class="text">An architect, software developer, YouTuber and keynote speaker. On this site I write about
+              my learning and experience.</p>
+            <div class="from">
+              <form>
+                <input type="email" name="email" id="email" placeholder="Your email address" required>
+                <button class="buttonbt" type="submit">Subscribe</button>
+              </form>
+            </div>
+            <div class="icons-ins">
+              <p class="follow row middle">
+                Follow: </p>
+              <div class="ins-div row middle">
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-github'></i>
               </div>
-              <div class="icons-ins">
-                <p class="follow row middle">
-                  Follow: </p>
+            </div>
+          </div>
+          <div class="img-div22">
+            <img class="imgboy"
+              src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/farhan-shaikh-9TYryqt3wLk-unsplash.jpg"
+              alt="">
+            <div class="one">
+              <div class="two">
+                <div class="three"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lifestyle-section">
+      <div class="container">
+        <div class="content">
+          <div class="style-title">
+            <h3 class="title-post">Featured posts</h3>
+            <div class="img-div row">
+              <img class="girl"
+                src="https://arun.gbjsolution.com/content/images/size/w1000/2021/05/tengyart-pNq5uxt-f7k-unsplash.jpg"
+                alt="">
+              <div class="life-st">
+                <div class="star-div-button row">
+                  <button class="star btn">Lifestyle</button>
+                  <img class="img-star" src="img/star-solid-24.png" alt="" width="25" height="25">
+
+                </div>
+                <p class="p-text-star">Self-observation is the first step of inner unfolding</p>
+                <p class="almost">Almost instantly the whole truth of the transaction seemed to rush upon her mind, and
+                  her wrath was inconceivably violent. She asked me a thousand questions in a...</p>
+                <div class="may-span">
+                  <span class="span-num">May 02, 2021</span><span class="span-num dot">3 min read</span><span
+                    class="span-num dot2">Public</span>
+                </div>
+
+              </div>
+            </div>
+            <div class="img-div row">
+              <img class="girl"
+                src="https://arun.gbjsolution.com/content/images/size/w1000/2021/05/timur-romanov-VfOx0mL70xU-unsplash.jpg"
+                alt="">
+              <div class="life-st">
+                <div class="star-div-button row">
+                  <button class="star btn">Lifestyle</button>
+                  <img class="img-star" src="img/star-solid-24.png" alt="" width="25" height="25">
+
+                </div>
+                <p class="p-text-star">Self-observation is the first step of inner unfolding</p>
+                <p class="almost">Almost instantly the whole truth of the transaction seemed to rush upon her mind, and
+                  her wrath was inconceivably violent. She asked me a thousand questions in a...</p>
+                <div class="may-span">
+                  <span class="span-num">May 02, 2021</span><span class="span-num dot">3 min read</span><span
+                    class="span-num dot2">Public</span>
+                </div>
+              </div>
+            </div>
+
+            <h3 class="title-post without">Latest posts</h3>
+            <div class="img-div row">
+              <img class="girl"
+                src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/kaizen-nguy-n-8Js2kEeiirs-unsplash.jpg"
+                alt="">
+              <div class="life-st">
+                <div class="star-div-button row">
+                  <button class="star btn">Nature</button>
+                </div>
+                <p class="p-text-star">Self-observation is the first step of inner unfolding</p>
+                <p class="almost">Almost instantly the whole truth of the transaction seemed to rush upon her mind, and
+                  her wrath was inconceivably violent. She asked me a thousand questions in a...</p>
+                <div class="may-span">
+                  <span class="span-num">May 02, 2021</span><span class="span-num dot">3 min read</span><span
+                    class="span-num dot2">Public</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="img-div row">
+              <img class="girl"
+                src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/mirna-rivalta-UecFf82b1qo-unsplash.jpg"
+                alt="">
+              <div class="life-st">
+                <div class="star-div-button row">
+                  <button class="star btn pink">Travel</button>
+                </div>
+                <p class="p-text-star">Self-observation is the first step of inner unfolding</p>
+                <p class="almost">Almost instantly the whole truth of the transaction seemed to rush upon her mind, and
+                  her wrath was inconceivably violent. She asked me a thousand questions in a...</p>
+                <div class="may-span">
+                  <span class="span-num">May 02, 2021</span><span class="span-num dot">3 min read</span><span
+                    class="span-num dot2">Public</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="price">
+      <div class="container">
+        <div class="plan-price">
+          <div class="main-price-div-box row middle">
+            <div class="members">
+              <h4 class="memb-h43">
+                Subscribe to premium membership plan
+              </h4>
+              <p class="get-p-text">Get access to all premium content and enjoy reading without any distraction</p>
+                <div class="plam-right">
+                 <a class="cpm-paln row middle" href="#">Compare plan <i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i></a> 
+                </div>
+            </div>
+
+            <div class="price-box-main row">
+                <div class="color-box-mano margin center">
+                    <p class="color-year">YEARLY</p>
+                    <div class="dollar-div">
+                      <span class="dollar">$</span><span class="number-dollor">50</span>
+                    </div>
+                     <p class="save-pron">Save 17%</p>
+                     <a class="suuubsr" href="#">Subscribe Now</a>
+                </div>
+                <div class="color-box-mano center">
+                  <p class="color-year">MONTHLY</p>
+                  <div class="dollar-div2">
+                    <span class="dollar">$</span><span class="number-dollor">5</span>
+                  </div>
+                   <a class="suuubsr" href="#">Subscribe Now</a>
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+      <section class="food-section container">
+        <div class="style-title">
+          <div class="img-div row">
+            <img class="girl"
+              src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/louis-hansel-8KvlX53rlnI-unsplash.jpg"
+              alt="">
+            <div class="life-st">
+              <div class="star-div-button row">
+                <button class="star btn food">Food</button>
+              </div>
+              <p class="p-text-star">Self-observation is the first step of inner unfolding</p>
+              <p class="almost">Almost instantly the whole truth of the transaction seemed to rush upon her mind, and
+                her wrath was inconceivably violent. She asked me a thousand questions in a...</p>
+              <div class="may-span">
+                <span class="span-num">May 02, 2021</span><span class="span-num dot">3 min read</span><span
+                  class="span-num dot2">Public</span>
+              </div>
+            </div>
+          </div>
+          <div class="img-div row">
+            <img class="girl"
+              src="https://arun.gbjsolution.com/content/images/size/w1000/2021/05/tengyart-pNq5uxt-f7k-unsplash.jpg"
+              alt="">
+            <div class="life-st">
+              <div class="star-div-button row">
+                <button class="star btn">Lifestyle</button>
+                <img class="img-star" src="img/star-solid-24.png" alt="" width="25" height="25">
+              </div>
+              <p class="p-text-star">Self-observation is the first step of inner unfolding</p>
+              <p class="almost">Almost instantly the whole truth of the transaction seemed to rush upon her mind, and
+                her wrath was inconceivably violent. She asked me a thousand questions in a...</p>
+              <div class="may-span">
+                <span class="span-num">May 02, 2021</span><span class="span-num dot">3 min read</span><span
+                  class="span-num dot2">Public</span>
+              </div>
+            </div>
+          </div>
+          <div class="img-div row">
+            <img class="girl"
+              src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/jean-philippe-delberghe-Ry9WBo3qmoc-unsplash.jpg"
+              alt="">
+            <div class="life-st">
+              <div class="star-div-button row">
+                <button class="star btn inspriatr">Inspiration</button>
+              </div>
+              <p class="p-text-star">Self-observation is the first step of inner unfolding</p>
+              <p class="almost">Almost instantly the whole truth of the transaction seemed to rush upon her mind, and
+                her wrath was inconceivably violent. She asked me a thousand questions in a...</p>
+              <div class="may-span">
+                <span class="span-num">May 02, 2021</span><span class="span-num dot">3 min read</span><span
+                  class="span-num dot2">Public</span>
+              </div>
+            </div>
+          </div>
+          <div class="img-div row">
+            <img class="girl"
+              src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/di_an_h-9jsV5uKbAEM-unsplash.jpg"
+              alt="">
+            <div class="life-st">
+              <div class="star-div-button row">
+                <button class="star btn technolagy">Technology</button>
+              </div>
+              <p class="p-text-star">Self-observation is the first step of inner unfolding</p>
+              <p class="almost">Almost instantly the whole truth of the transaction seemed to rush upon her mind, and
+                her wrath was inconceivably violent. She asked me a thousand questions in a...</p>
+              <div class="may-span">
+                <span class="span-num">May 02, 2021</span><span class="span-num dot">3 min read</span><span
+                  class="span-num dot2">Public</span>
+              </div>
+            </div>
+          </div>
+          <div class="img-div row">
+            <img class="girl"
+              src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/abinash-mark-qHBqisLKC6o-unsplash.jpg"
+              alt="">
+            <div class="life-st">
+              <div class="star-div-button row">
+                <button class="star btn food">Food</button>
+              </div>
+              <p class="p-text-star">Self-observation is the first step of inner unfolding</p>
+              <p class="almost">Almost instantly the whole truth of the transaction seemed to rush upon her mind, and
+                her wrath was inconceivably violent. She asked me a thousand questions in a...</p>
+              <div class="may-span">
+                <span class="span-num">May 02, 2021</span><span class="span-num dot">3 min read</span><span
+                  class="span-num dot2">Public</span>
+              </div>
+            </div>
+          </div>
+          <div class="img-div row">
+            <img class="girl"
+              src="https://arun.gbjsolution.com/content/images/size/w1000/2021/05/timur-romanov-VfOx0mL70xU-unsplash.jpg"
+              alt="">
+            <div class="life-st">
+              <div class="star-div-button row">
+                <button class="star btn">Health</button>
+                <img class="img-star" src="img/star-solid-24.png" alt="" width="25" height="25">
+
+              </div>
+              <p class="p-text-star">Self-observation is the first step of inner unfolding</p>
+              <p class="almost">Almost instantly the whole truth of the transaction seemed to rush upon her mind, and
+                her wrath was inconceivably violent. She asked me a thousand questions in a...</p>
+              <div class="may-span">
+                <span class="span-num">May 02, 2021</span><span class="span-num dot">3 min read</span><span
+                  class="span-num dot2">Public</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="neewlatter">
+        <div class="show-morw-post">
+          <a class="show-mooooooreeee" href="#">Show More Posts</a>
+        </div>
+          <div class="container back-color-cc">
+            <div class="content-back center">
+               <img class="img-mees-fff" src="img/forward_to_inbox_white_24dp.svg" alt="" width="100" height="100">
+                <h4 class="news-sub-pun">Subscribe to newsletter</h4>
+                <p class="inbox-text">Stay up to date! Get all the latest posts 
+                delivered straight to your inbox.</p>
+              <div class="form-fff">
+                <form class="form-main-css">
+                  <input type="name" name="name" id="name" placeholder="Your name" required>
+                  <input class="email" type="email" name="email" id="email" placeholder="Your email address" required>
+                  <button class="btn name-submit" type="submit">Subscribe</button>
+                </form>
+              </div>      
+            </div>
+          </div>
+      </section>
+  </main>
+
+  <section class="footer-section">
+    <footer class="footer">
+        <div class="container">
+          <div class="main-footer row between middle">
+            <div class="title-footer">
+              <div class="footer-logo"></div>
+                <p class="footer-text">An architect, software developer, YouTuber and keynote speaker. On this site I write about my learning and experience.</p>
+                <div class="icons-ins">
+                  <p class="follow row middle">
+                    Follow: </p>
                   <div class="ins-div row middle">
-                    <i class='bx bxl-instagram'></i> 
+                    <i class='bx bxl-instagram'></i>
                     <i class='bx bxl-facebook'></i>
                     <i class='bx bxl-twitter'></i>
                     <i class='bx bxl-github'></i>
                   </div>
-              </div>
-              </div>
-                <div class="img-div22">
-                  <img class="imgboy" src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/farhan-shaikh-9TYryqt3wLk-unsplash.jpg" alt="">
-                    <div class="one">
-                      <div class="two">
-                          <div class="three"></div>
-                      </div>
-                    </div>
                 </div>
             </div>
-        </div>
-      </section>
+            <ul class="footer-ul">
+              <li class="footer-list"><a class="footer-link" href="#">
+                <h4 class="footer-h4">Features</h4>
+              </a></li>
+              <li class="footer-list"><a class="footer-link" href="#">
+                Elements
+              </a></li>
+              <li class="footer-list"><a class="footer-link" href="#">
+                Tags
+              </a></li>
+              <li class="footer-list"><a class="footer-link" href="#">
+                Authors
+              </a></li>
+              <li class="footer-list"><a class="footer-link" href="#">
+                404 page
+              </a></li>
+            </ul>
 
-      <section class="lifestyle-section">
-        <div class="container">
-          <div class="content">
-            <div class="style-title">
-              <h3 class="title-post">Featured posts</h3>
-              <div class="img-div row">
-                <img class="girl" src="https://arun.gbjsolution.com/content/images/size/w1000/2021/05/tengyart-pNq5uxt-f7k-unsplash.jpg" alt="">
-                <div class="life-st">
-                    <button class="star btn">Lifestyle</button>
-                    <p>Self-observation is the first step of inner unfolding</p>
-                </div>
-              </div>
-            </div>
+            <ul class="footer-ul">
+              <li class="footer-list"><a class="footer-link" href="#">
+                <h4 class="footer-h4">Members</h4>
+              </a></li>
+              <li class="footer-list"><a class="footer-link" href="#">
+                Membership
+              </a></li>
+              <li class="footer-list"><a class="footer-link" href="#">
+                Sign in
+              </a></li>
+              <li class="footer-list"><a class="footer-link" href="#">
+                Sign up
+              </a></li>
+              <li class="footer-list"><a class="footer-link" href="#">
+                Account
+              </a></li>
+            </ul>
+
+            <ul class="footer-ul mmmmmaaa">
+              <li class="footer-list"><a class="footer-link" href="#">
+                <h4 class="footer-h4">About</h4>
+              </a></li>
+              <li class="footer-list"><a class="footer-link" href="#">
+                Tag page
+              </a></li>
+              <li class="footer-list"><a class="footer-link" href="#">
+                Author page
+              </a></li>
+              <li class="footer-list"><a class="footer-link" href="#">
+                Contact
+              </a></li>
+              <li class="footer-list"><a class="footer-link" href="#">
+                Privacy
+              </a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="roy-main-footer">© 2022 Arun Roy - All right Reserved. Published with Ghost</p>
           </div>
         </div>
-      </section>
+    </footer>
+  </section>
 
 
-    </main>
-    
-      
   <script src="js/main.js"></script>
 </body>
 

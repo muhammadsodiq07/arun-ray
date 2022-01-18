@@ -6,13 +6,163 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+      <header id="header" class="header">
+        <section class="header-section">
+          <div class="container">
+              <div class="header-div row middle between">
+                <div class="logo-img">
+                  <a href="#"><img class="logo" src="https://arun.gbjsolution.com/content/images/2021/05/arun-light-theme-logo.svg" alt="" width="130" height="40"></a>
+                </div>
+                <div class="nav-div">
+                  <nav class="navbar">
+                    <ul class="ul-item row middle">
+                      <li class="list">
+                        <a class="link active" href="#">
+                            Home
+                        </a>
+                      </li>
+                      <li class="list">
+                        <a class="link" href="#">
+                            Features
+                        </a>
+                      </li>
+                      <li class="list">
+                        <a class="link" href="#">
+                            Elements
+                        </a>
+                      </li>
+                      <li class="list">
+                        <a class="link" href="#">
+                            Membership
+                        </a>
+                      </li>
+                      <li class="list">
+                        <p class="list-p">
+                          More
+                        </p>
+                        <div class="box">
+                          <ul class="box-ul">
+                            <li class="box-list"><a class="box-links" href="#">Tags</a></li>
+                            <li class="box-list"><a class="box-links" href="#">Authors</a></li>
+                            <li class="box-list"><a class="box-links" href="#">Monthly</a></li>
+                            <li class="box-list"><a class="box-links" href="#">Yearly</a></li>
+                            <li class="box-list"><a class="box-links" href="#">Contact</a></li>
+                            <li class="box-list"><a class="box-links" href="#">Get theme</a></li>
+                            <li class="box-list"><a class="box-links" href="#">Tags</a></li>
+                          </ul>
+                        </div>
 
+                      </li>
+                      <li class="list">
+                        <a class="link" href="#">
+                            Sing in
+                        </a>
+                      </li>
+                      <li class="list btn">
+                        <a class="btn-link" href="#">
+                            Sing up
+                        </a>
+                      </li>
+                      <div id="id-search" class="icons row middle">
+                        <i class='bx bx-search'></i>
+                        <button class="dark-mode" id="modeBtn"><img class="img-moon" src="img/bx-moon.svg" alt=""></button>  
+                      </div>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+          </div>
+        </section>
+      </header>
+      <div class="modal-box" id="id-modalbox">
+        <div class="container">
+          <div class="modal-search">
+            <input class="modal-input" type="text" id="text" placeholder="Type to search">
+            <p class="modal-desc">Press ESC to close.
+            </p>
+          </div>
+  
+          <div class="modal-list-box">
+            <p class="modal-text">See posts by Popular tags</p>
+            <ul class="modal-list row">
+              <li class="modal-item"><a class="modal-link" href="#">Inspiration</a></li>
+              <li class="modal-item"><a class="modal-link" href="#">Lifestyle</a></li>
+              <li class="modal-item"><a class="modal-link" href="#">Nature</a></li>
+              <li class="modal-item"><a class="modal-link" href="#">Health</a></li>
+              <li class="modal-item"><a class="modal-link" href="#">Travel</a></li>
+              <li class="modal-item"><a class="modal-link" href="#">Food</a></li>
+              <li class="modal-item"><a class="modal-link" href="#">Technology</a></li>
+            </ul>
+          </div>
+          <button class="modal-btn" id="id-remove">
+            <i class='bx bx-x-circle icon-x'></i>
+          </button>
+          </div>
+        </div>
+    <main id="main" class="main">
+      <section class="hero-section">
+        <div class="container">
+            <div class="hey row between">
+              <div>
+                <h1 class="title">Hay, I am Arun</h1>
+                <p class="text">An architect, software developer, YouTuber and keynote speaker. On this site I write about my learning and experience.</p>
+              <div class="from"> 
+                <form>
+                  <input type="email" name="email" id="email" placeholder="Your email address" required>
+                  <button class="buttonbt" type="submit">Subscribe</button>
+                </form>
+              </div>
+              <div class="icons-ins">
+                <p class="follow row middle">
+                  Follow: </p>
+                  <div class="ins-div row middle">
+                    <i class='bx bxl-instagram'></i> 
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-github'></i>
+                  </div>
+              </div>
+              </div>
+                <div class="img-div22">
+                  <img class="imgboy" src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/farhan-shaikh-9TYryqt3wLk-unsplash.jpg" alt="">
+                    <div class="one">
+                      <div class="two">
+                          <div class="three"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="lifestyle-section">
+        <div class="container">
+          <div class="content">
+            <div class="style-title">
+              <h3 class="title-post">Featured posts</h3>
+              <div class="img-div row">
+                <img class="girl" src="https://arun.gbjsolution.com/content/images/size/w1000/2021/05/tengyart-pNq5uxt-f7k-unsplash.jpg" alt="">
+                <div class="life-st">
+                    <button class="star btn">Lifestyle</button>
+                    <p>Self-observation is the first step of inner unfolding</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+    
+      
   <script src="js/main.js"></script>
 </body>
 

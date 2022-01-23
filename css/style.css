@@ -111,31 +111,27 @@ body {
   opacity: 0;
   width: 0;
   animation: educat 2s linear alternate;
-  transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in; 
 }
 
 @keyframes educat {
   0% {
     width: 0px;
-    transition: all 0.2s ease-in;
   }
 
   50% {
     width: 20px;
     opacity: 1;
-    transition: all 0.2s ease-in;
   }
 
   100% {
     width: 0;
     opacity: 0;
-    transition: all 0.2s ease-in;
   }
 }
 
 .link:hover::before {
-  width: 20px;
-  transition: all 0.2s ease-in;
+  width: 20px;  
   opacity: 1;
 }
 
@@ -475,8 +471,8 @@ input[type="email"]:hover {
   position: absolute;
   left: 180px;
   display:block;
-  background-color: red;
-  box-shadow:  0px 
+  background: rgb(101, 192, 228);
+  box-shadow: 0px 0px 10px 0px rgb(169, 213, 253);
   10px 15px rgba(0, 0, 0, 0.35);
 }
 
@@ -489,8 +485,8 @@ input[type="email"]:hover {
   right: 180px;
   bottom: 0;
   display:block;
-  background-color: yellow;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background: rgb(158, 34, 34);
+  box-shadow: 0px 0px 10px 0px rgb(175, 109, 109);
 }
 
 .two {
@@ -523,8 +519,8 @@ input[type="email"]:hover {
   position: absolute;
   display:block;
   left: 210px;
-  background-color: rgb(89, 120, 255);
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background: rgb(250, 54, 217);
+  box-shadow: 0px 0px 10px 0px rgb(216, 176, 243);
 
 }
 
@@ -537,10 +533,9 @@ input[type="email"]:hover {
   right: 210px;
   bottom: 0px;
   display:block;
-  background-color: green;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background: rgb(215, 247, 37);
+  box-shadow: 0px 0px 10px 0px rgb(243, 223, 157);
 }
-
 .imgboy {
   position: absolute;
   right: 100px;
@@ -568,6 +563,7 @@ input[type="email"]:hover {
   display: inline-block;
   border-bottom: 3px solid #0057ff;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  
 }
 
 .img-div {
